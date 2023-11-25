@@ -124,6 +124,31 @@
 
 }
 
- 
+.big-img{
+      width: 1552px;
+      height: 840px;
+      padding: 0,13px,252px,13px;
 
+
+}
+
+.features-title{
+      font-size: 52px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 62px; /* 119.231% */
+      letter-spacing: 0.2px;
+      color: #fff;
+      text-align: center;
+
+}
   
+.features-subtitle{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 150% */
+      letter-spacing: 0.2px;
+      padding-top: 27px;
+      text-align: center;
+}
