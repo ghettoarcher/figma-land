@@ -128,7 +128,14 @@
       width: 1552px;
       height: 840px;
       padding: 0,13px,252px,13px;
-
+      display: flex;
+      flex-direction: column;
+}
+.dash1{
+      margin-left: 54px;
+      width: 465.817px;
+      height: 429.985px;
+      /* margin: 20px 0px 0px auto; */
 
 }
 
@@ -144,11 +151,64 @@
 }
   
 .features-subtitle{
+      width:582px;
+      color:#FFF;
       font-size: 20px;
       font-style: normal;
       font-weight: 400;
       line-height: 30px; /* 150% */
       letter-spacing: 0.2px;
       padding-top: 27px;
-      text-align: center;
+      margin-left:590px;
+      padding-bottom: 80px;
 }
+
+.features-img {
+      width: 696px;
+      height: 659px;
+      margin-left: 223px;
+      position: relative; /* Добавлено позиционирование relative для features-img */
+      display: inline-block;
+  }
+  
+  .chart {
+      position: absolute;
+      bottom: -100px;
+      left: 46%;
+      z-index: 1; /* Устанавливаем z-index, чтобы элемент находился поверх других элементов */
+  }
+.features-wrapper{
+
+      padding:62px,50px;
+      padding-bottom:100px;
+
+}
+
+.features-descr-wrapper{
+      padding-left: 100px;
+      display: inline-block;
+      color:#FFF;
+      width: 269px;
+}
+
+.features-descr-title{
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 150% */
+      letter-spacing: 0.1px;
+}
+
+.features-descr-opisanie{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      letter-spacing: 0.2px;
+}
+
+
+.features-descr-icon{
+      padding-top: 74px;
+}
+
